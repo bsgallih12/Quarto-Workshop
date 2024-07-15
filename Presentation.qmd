@@ -1,0 +1,80 @@
+---
+title: "Academic and Personal Website Creation: A Quarto Tutorial"
+subtitle: "Workshops For Ukraine Series"
+author: "Brier Gallihugh, M.S."
+date: 07/18/2024
+date-format: "MMMM D, YYYY"
+format: 
+  revealjs:
+    theme: dark
+    css: revealjs.css
+    transition: slide
+---
+
+## About Me
+
+-   I'm an incoming 5th year doctoral candidate <br>
+-   Experimental Psychology at Ohio University <br>
+-   My research interests include:
+    -   Prejudice and Discrimination
+    -   Psych of Religion
+-   Scientific Hobby Interests:
+    -   R
+    -   Quarto
+
+## What You Need
+
+-   R
+-   RStudio
+-   GitHub
+-   [Netlify](https://app.netlify.com) Account
+
+## What Will Be Covered
+
+-   Adding Pages
+-   Navigation Panel Changes
+-   Adding socials
+-   Adding CV/Resume
+-   Adding Projects
+-   Changing Themes
+-   Publishing Website Online (For Free with [Netlify](https://app.netlify.com))
+
+## Adding Pages
+
+## Navigation Panel Changes
+
+## Adding Socials
+
+## Adding CV/Resume
+
+## Adding Projects/Talks/Presentations
+
+## Changing Theme Appearance
+
+- The default theme isn't the only one you can do
+- By default there are 12 pre-made options
+  - `flatly` is the default. `darkly` is the dark-mode version
+- However, they're open source and the files can be changed or modified
+  - As long as you know SCSS
+    - I don't know either one (well), BUT ChatGPT and Google help
+    - I'll show you a couple things quick
+
+## Publishing Your Website
+
+::::{.panel-tabset}
+
+### Publishing
+
+- Several options to publish
+- Personally I think Netlify is the best because you get some choice over your web address (and it's free^1^)
+  
+:::{.callout-important}
+# Caution
+^1^Netlify will charge you should your site start receiving a lot of traffic. In which case other options might be better depending on how much traffic you expect to generate.
+:::
+
+### Final Product
+
+![You can find the repo on my [GitHub](https://github.com/bsgallih12/Personal-Website)](final_product.png)
+
+::::

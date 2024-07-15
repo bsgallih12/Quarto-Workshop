@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About This Workshop",
+    "section": "",
+    "text": "Dolor curae potenti porta tellus hendrerit nam. Volutpat ad ridiculus facilisis! Accumsan ante cum tristique luctus suscipit quam. Vehicula faucibus nisi nisi – gravida nisi purus; suspendisse feugiat fringilla viverra commodo. Ad vestibulum bibendum nibh potenti ligula integer leo nunc, convallis arcu enim – proin – dictum vulputate diam aliquam.\nSit gravida penatibus libero, elementum aliquet feugiat. Senectus sollicitudin egestas dui semper: tempor odio arcu conubia nisi ligula. Quisque euismod accumsan litora ornare praesent placerat hendrerit. Mauris vel lobortis sollicitudin justo dictum habitasse himenaeos nisi mollis lectus. Ridiculus sollicitudin id tincidunt iaculis tempus malesuada mauris nulla malesuada est orci velit!\nLorem malesuada porttitor cursus class suscipit elementum, vulputate – convallis magna a sollicitudin. Potenti odio sodales mattis, viverra ac aenean. Eros lacus proin lectus dictum praesent lacinia venenatis. Velit eget interdum ac inceptos mattis? Et cras dui a risus fermentum: dictum luctus aenean proin dictum enim, purus class, massa nec facilisis turpis pretium."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "My Data Science Project\n\n\n\n\n\n\nQuarto\n\n\nR\n\n\nWorkshop\n\n\n\nA mock data science project\n\n\n\n\n\nJul 18, 2024\n\n\nBrier S. Gallihugh\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Presentation.html#about-me",
+    "href": "Presentation.html#about-me",
+    "title": "Academic and Personal Website Creation: A Quarto Tutorial",
+    "section": "About Me",
+    "text": "About Me\n\nI’m an incoming 5th year doctoral candidate \nExperimental Psychology at Ohio University \nMy research interests include:\n\nPrejudice and Discrimination\nPsych of Religion\n\nScientific Hobby Interests:\n\nR\nQuarto"
+  },
+  {
+    "objectID": "Presentation.html#what-you-need",
+    "href": "Presentation.html#what-you-need",
+    "title": "Academic and Personal Website Creation: A Quarto Tutorial",
+    "section": "What You Need",
+    "text": "What You Need\n\nR\nRStudio\nGitHub\nNetlify Account"
+  },
+  {
+    "objectID": "Presentation.html#what-will-be-covered",
+    "href": "Presentation.html#what-will-be-covered",
+    "title": "Academic and Personal Website Creation: A Quarto Tutorial",
+    "section": "What Will Be Covered",
+    "text": "What Will Be Covered\n\nAdding Pages\nNavigation Panel Changes\nAdding socials\nAdding CV/Resume\nAdding Projects\nChanging Themes\nPublishing Website Online (For Free with Netlify)"
+  },
+  {
+    "objectID": "Presentation.html#adding-pages",
+    "href": "Presentation.html#adding-pages",
+    "title": "Academic and Personal Website Creation: A Quarto Tutorial",
+    "section": "Adding Pages",
+    "text": "Adding Pages"
+  },
+  {
+    "objectID": "Presentation.html#navigation-panel-changes",
+    "href": "Presentation.html#navigation-panel-changes",
+    "title": "Academic and Personal Website Creation: A Quarto Tutorial",
+    "section": "Navigation Panel Changes",
+    "text": "Navigation Panel Changes"
+  },
+  {
+    "objectID": "Presentation.html#adding-socials",
+    "href": "Presentation.html#adding-socials",
+    "title": "Academic and Personal Website Creation: A Quarto Tutorial",
+    "section": "Adding Socials",
+    "text": "Adding Socials"
+  },
+  {
+    "objectID": "Presentation.html#adding-cvresume",
+    "href": "Presentation.html#adding-cvresume",
+    "title": "Academic and Personal Website Creation: A Quarto Tutorial",
+    "section": "Adding CV/Resume",
+    "text": "Adding CV/Resume"
+  },
+  {
+    "objectID": "Presentation.html#adding-projectstalkspresentations",
+    "href": "Presentation.html#adding-projectstalkspresentations",
+    "title": "Academic and Personal Website Creation: A Quarto Tutorial",
+    "section": "Adding Projects/Talks/Presentations",
+    "text": "Adding Projects/Talks/Presentations"
+  },
+  {
+    "objectID": "Presentation.html#changing-theme-appearance",
+    "href": "Presentation.html#changing-theme-appearance",
+    "title": "Academic and Personal Website Creation: A Quarto Tutorial",
+    "section": "Changing Theme Appearance",
+    "text": "Changing Theme Appearance\n\nThe default theme isn’t the only one you can do\nBy default there are 12 pre-made options\n\nflatly is the default. darkly is the dark-mode version\n\nHowever, they’re open source and the files can be changed or modified\n\nAs long as you know SCSS\n\nI don’t know either one (well), BUT ChatGPT and Google help\nI’ll show you a couple things quick"
+  },
+  {
+    "objectID": "Presentation.html#publishing-your-website",
+    "href": "Presentation.html#publishing-your-website",
+    "title": "Academic and Personal Website Creation: A Quarto Tutorial",
+    "section": "Publishing Your Website",
+    "text": "Publishing Your Website\n\nPublishingFinal Product\n\n\n\nSeveral options to publish\nPersonally I think Netlify is the best because you get some choice over your web address (and it’s free1)\n\n\n\n\n\n\n\nCaution\n\n\n1Netlify will charge you should your site start receiving a lot of traffic. In which case other options might be better depending on how much traffic you expect to generate.\n\n\n\n\n\n\n\n\nYou can find the repo on my GitHub"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "My Data Science Project",
+    "section": "",
+    "text": "Ipsum id auctor dignissim duis, metus fusce neque lacinia nascetur. Id faucibus mus donec risus fermentum, eget libero – dis etiam facilisis sodales condimentum? Justo porttitor senectus justo non justo vitae ridiculus nunc! Bibendum mauris purus mi natoque fusce magna!\nSit dapibus ultrices dui iaculis integer dui potenti mattis ridiculus. Feugiat faucibus quam himenaeos tempor ridiculus sociis tempus molestie ad! Lobortis vulputate dui sagittis viverra, lacus senectus. Est pellentesque sapien etiam tellus, massa, ultrices semper velit placerat!\nDolor nisi eros in tristique, magnis, purus accumsan tempor! Dui fermentum posuere semper: quisque, proin nascetur rutrum pretium? Leo velit dapibus risus, commodo mauris enim neque suscipit. Senectus accumsan gravida id per curae curabitur auctor sociosqu porttitor luctus: nullam varius volutpat!\nAmet arcu nisl – non phasellus ligula molestie, ridiculus tortor nostra. Nam urna ultrices platea dictum tellus: tortor ante mi. Lacinia vestibulum sem gravida sem suscipit nascetur orci augue conubia porta velit sodales? Mauris vel ac nullam taciti id platea."
+  },
+  {
+    "objectID": "projects/project1.html#introduction",
+    "href": "projects/project1.html#introduction",
+    "title": "My Data Science Project",
+    "section": "",
+    "text": "Ipsum id auctor dignissim duis, metus fusce neque lacinia nascetur. Id faucibus mus donec risus fermentum, eget libero – dis etiam facilisis sodales condimentum? Justo porttitor senectus justo non justo vitae ridiculus nunc! Bibendum mauris purus mi natoque fusce magna!\nSit dapibus ultrices dui iaculis integer dui potenti mattis ridiculus. Feugiat faucibus quam himenaeos tempor ridiculus sociis tempus molestie ad! Lobortis vulputate dui sagittis viverra, lacus senectus. Est pellentesque sapien etiam tellus, massa, ultrices semper velit placerat!\nDolor nisi eros in tristique, magnis, purus accumsan tempor! Dui fermentum posuere semper: quisque, proin nascetur rutrum pretium? Leo velit dapibus risus, commodo mauris enim neque suscipit. Senectus accumsan gravida id per curae curabitur auctor sociosqu porttitor luctus: nullam varius volutpat!\nAmet arcu nisl – non phasellus ligula molestie, ridiculus tortor nostra. Nam urna ultrices platea dictum tellus: tortor ante mi. Lacinia vestibulum sem gravida sem suscipit nascetur orci augue conubia porta velit sodales? Mauris vel ac nullam taciti id platea."
+  },
+  {
+    "objectID": "projects/project1.html#methods",
+    "href": "projects/project1.html#methods",
+    "title": "My Data Science Project",
+    "section": "Methods",
+    "text": "Methods\nAmet eu fusce blandit velit vel leo sociosqu libero tincidunt ad? Quis rutrum ullamcorper fringilla phasellus, turpis luctus magnis quam maecenas? Justo turpis fames tortor et hac natoque rhoncus bibendum commodo mus! Iaculis ut suscipit per nisl: libero consequat class sociis fusce lobortis, auctor felis?\nElit interdum nulla ad – pellentesque tortor, neque nibh, vitae sapien fringilla mattis. Blandit morbi ullamcorper velit feugiat, viverra ante, nunc nulla cubilia ligula lacinia aliquam aenean. Est luctus torquent, parturient leo est nisl, quisque sem platea. Euismod suspendisse curabitur.\nElit nulla tempor ut fames, pretium cras posuere tortor duis. Potenti massa suspendisse, varius faucibus mus ornare nullam euismod nostra. Ultricies commodo proin molestie ultrices ut arcu leo commodo porttitor bibendum gravida. Dapibus nam, neque, integer ultricies bibendum fringilla tortor suspendisse!\nIpsum class facilisis, cum vestibulum malesuada pellentesque leo fermentum. Tincidunt aliquet vitae vehicula, conubia, bibendum malesuada nisi pulvinar, natoque curae ultricies vivamus. Magnis magnis a cubilia senectus fringilla convallis etiam libero primis. Fermentum urna pretium dictum tortor venenatis lectus."
+  },
+  {
+    "objectID": "projects/project1.html#results",
+    "href": "projects/project1.html#results",
+    "title": "My Data Science Project",
+    "section": "Results",
+    "text": "Results\nIpsum eleifend justo urna convallis vitae aenean donec convallis natoque vivamus. Himenaeos placerat conubia tempor a molestie neque pharetra: volutpat a morbi. Mauris velit viverra urna dignissim etiam, vestibulum pulvinar mollis netus! Condimentum ullamcorper taciti ut suspendisse, at phasellus cum id; neque quis nulla; nunc augue lacinia!. For more info see Figure 1\nIpsum lacinia ultricies fringilla posuere nisi vel nec. Vulputate quis, erat, neque mollis phasellus, nisi semper facilisis integer semper. Varius facilisis urna congue lobortis velit, elementum, sollicitudin leo sem malesuada auctor elementum. Torquent mauris est malesuada aliquet mi, pellentesque pharetra scelerisque euismod pulvinar nam id enim himenaeos.. For more info see Table 1"
+  },
+  {
+    "objectID": "projects/project1.html#discussion",
+    "href": "projects/project1.html#discussion",
+    "title": "My Data Science Project",
+    "section": "Discussion",
+    "text": "Discussion\nSit tristique magna taciti neque velit congue pellentesque sem euismod! Augue vulputate posuere nisl aptent inceptos venenatis ultrices malesuada aptent blandit ad, lacinia taciti! Sociis tellus proin diam orci neque imperdiet potenti! Mi rhoncus est etiam nostra fusce fringilla.\nElit neque aliquet consequat sociis bibendum, est ornare nec commodo risus. Convallis malesuada pharetra cum porta mi arcu nec, nunc eleifend eros risus. Purus neque suspendisse nascetur proin porttitor massa diam scelerisque. Nullam lobortis nibh, per ultricies metus duis curabitur, facilisi congue blandit praesent aliquam.\nDolor volutpat aenean rhoncus nibh cras facilisis facilisis a. Cubilia class, feugiat nullam venenatis iaculis. Laoreet enim montes et, parturient suscipit habitant fusce; inceptos tincidunt. Aenean et sem dis lacinia cursus molestie inceptos: etiam, condimentum consequat, posuere nisi enim gravida nullam.\nLorem dis habitant massa eleifend ultrices, pharetra ad, libero, eros maecenas et auctor. Dis imperdiet tempus – sollicitudin vestibulum id tempor faucibus, dui purus donec vestibulum volutpat! Penatibus vestibulum nostra donec cubilia; hendrerit nam. Elementum erat feugiat ac tincidunt ultrices?"
+  },
+  {
+    "objectID": "projects/project1.html#conclusion",
+    "href": "projects/project1.html#conclusion",
+    "title": "My Data Science Project",
+    "section": "Conclusion",
+    "text": "Conclusion\nAmet faucibus dictumst orci torquent tempus gravida metus. Parturient aliquam turpis tempor nunc tempus, turpis varius dis aliquet. Eu metus porttitor ad suspendisse posuere dignissim gravida sociis? Rhoncus sapien non magna augue – aptent sodales – fringilla, volutpat, dui metus nisl felis augue nam.\nSit natoque orci, nascetur porta diam. Habitant aenean penatibus eu turpis facilisis, interdum accumsan ligula penatibus elementum duis senectus! Aenean himenaeos montes ac, luctus praesent sapien parturient ac taciti. Mattis facilisis.\nDolor class vestibulum augue auctor eu, suscipit ut duis. Aliquam venenatis congue rhoncus vivamus etiam rhoncus class? Bibendum tortor volutpat ultricies in volutpat magnis habitasse euismod, dictumst pharetra sapien id. Sodales accumsan tincidunt nunc luctus curabitur, risus iaculis.\nIpsum sodales per mus semper primis dictum quisque suscipit? Sapien semper semper dis malesuada rutrum, nec hac cum. Nec auctor a; hendrerit feugiat urna, taciti – leo porta condimentum condimentum. Ultricies sapien tristique, diam at mauris hendrerit fermentum duis molestie sapien lacinia?"
+  },
+  {
+    "objectID": "projects/project1.html#references",
+    "href": "projects/project1.html#references",
+    "title": "My Data Science Project",
+    "section": "References",
+    "text": "References\n\n\nAden-Buie, G. (2023). Lorem: Generate lorem ipsum text. https://github.com/gadenbuie/lorem\n\n\nHorst, A., Hill, A., & Gorman, K. (2022). Palmerpenguins: Palmer archipelago (antarctica) penguin data. https://allisonhorst.github.io/palmerpenguins/\n\n\nIannone, R., Cheng, J., Schloerke, B., Hughes, E., Lauer, A., & Seo, J. (2024). Gt: Easily create presentation-ready display tables. https://gt.rstudio.com\n\n\nWickham, H. (2023). Tidyverse: Easily install and load the tidyverse. https://tidyverse.tidyverse.org\n\n\nWickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L. D., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T. L., Miller, E., Bache, S. M., Müller, K., Ooms, J., Robinson, D., Seidel, D. P., Spinu, V., … Yutani, H. (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686. https://doi.org/10.21105/joss.01686"
+  },
+  {
+    "objectID": "projects/project1.html#appendices",
+    "href": "projects/project1.html#appendices",
+    "title": "My Data Science Project",
+    "section": "Appendices",
+    "text": "Appendices\n\n\n\n\nTable 1: Mean and Variance of Flipper Length By Species\n\n\n\n\n\n\n\n\n\nSpecies\nM\nSD\n\n\n\n\nAdelie\n190.10\n6.52\n\n\nChinstrap\n195.82\n7.13\n\n\nGentoo\n217.24\n6.59\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: Flipper Length By Sex"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Academic and Personal Website Creation: A Quarto Tutorial",
+    "section": "",
+    "text": "Lorem mauris vitae nam molestie nostra integer vel parturient etiam. Nunc tempus eros mattis ornare maecenas bibendum: penatibus et convallis euismod sagittis ultricies nunc? Eget cum fermentum primis congue habitasse litora proin! Pretium in pharetra elementum lacinia donec? Orci augue suscipit cras montes vivamus himenaeos id donec laoreet nec luctus aliquet ultricies vulputate nullam, suspendisse interdum sagittis?\nConsectetur enim lobortis himenaeos placerat aliquam lectus, enim cras at interdum ante? Vestibulum est auctor dapibus mattis cursus, metus arcu sapien primis placerat nam vehicula inceptos. Est class himenaeos inceptos nullam, duis curabitur inceptos parturient. Fames eleifend venenatis blandit aptent dapibus; magnis bibendum tincidunt. Nostra malesuada fringilla fusce libero proin nisi tempus urna nisl dis feugiat.\nDolor tempor natoque nullam tellus ullamcorper in; penatibus, congue bibendum cursus, hac hendrerit. Felis magnis ut luctus iaculis senectus egestas in. Vel cum, conubia praesent praesent dapibus congue nostra, maecenas imperdiet. Ridiculus in facilisis lobortis laoreet bibendum, sodales vel. Vivamus sem etiam iaculis, vestibulum, dis duis aenean convallis condimentum."
+  }
+]

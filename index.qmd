@@ -1,0 +1,10 @@
+---
+title: "Academic and Personal Website Creation: A Quarto Tutorial"
+echo: false
+---
+
+```{r}
+library(lorem)
+```
+
+`r lorem::ipsum(paragraphs = 3, sentences = 5)`

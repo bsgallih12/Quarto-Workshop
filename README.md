@@ -1,1 +1,3 @@
-# Quarto-Workshop
+# Quarto Workshop
+
+This will serve as the public repository for the Academic and Personal Website Creation: A Quarto Tutorial workshop hosted as part of the Workshops For Ukraine series. The workshop will be Thursday, July 18th from 12p-2p EST. For those reading this after this date, you can purchase access to the recordings [here](https://sites.google.com/view/dariia-mykhailyshyna/main/r-workshops-for-ukraine)
