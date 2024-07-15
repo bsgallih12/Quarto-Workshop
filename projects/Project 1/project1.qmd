@@ -1,0 +1,103 @@
+---
+title: "My Data Science Project"
+author: "Brier S. Gallihugh"
+date: "2024-07-18"
+categories: [Quarto,R,Workshop]
+# image: twitter_upload_tt_1_25_23.png
+# image-alt: "A word cloud of mostly commonly discarded items on Alone"
+description: "A mock data science project"
+echo: false
+bibliography: packages.bib
+format: 
+  html: default
+  typst: default
+    # columns: 2
+    # mainfont: "Apple Chancery"
+    # fontsize: "12pt"
+format-links:
+  - html
+  - typst
+  # - format: typst
+  #   text: PDF
+  #   icon: file-pdf
+csl: apa.csl
+citeproc: true
+bibliographystyle: apa
+nocite: |
+  @*
+---
+
+```{r}
+#| warning: false
+#| echo: false
+library(lorem)
+library(gt)
+library(tidyverse)
+library(palmerpenguins)
+
+data = palmerpenguins::penguins %>% na.omit() %>% select(flipper_length_mm,bill_length_mm,sex,species)
+```
+
+## Introduction
+
+`r lorem::ipsum(paragraphs=4,sentences=4)`
+
+## Methods
+
+`r lorem::ipsum(paragraphs=4,sentences=4)`
+
+## Results
+
+`r lorem::ipsum(paragraphs=1,sentences=4)`. For more info see @fig-1
+
+
+`r lorem::ipsum(paragraphs=1,sentences=4)`. For more info see @tbl-species-variance
+
+
+## Discussion
+
+`r lorem::ipsum(paragraphs=4,sentences=4)`
+
+## Conclusion
+
+`r lorem::ipsum(paragraphs=4,sentences=4)`
+
+::: {#refs}
+
+## References
+
+:::
+
+## Appendices
+
+```{r table}
+#| label: tbl-species-variance
+#| tbl-cap: Mean and Variance of Flipper Length By Species
+#| tbl-cap-location: top
+
+data %>% group_by(species) %>% 
+  summarize(M = round(mean(flipper_length_mm),2),
+            SD = round(sd(flipper_length_mm),2)) %>% 
+  gt() %>% 
+  gt::cols_label(species ~ "Species") %>% 
+  gt::cols_label(M ~ md("*M*")) %>% 
+  gt::cols_label(SD ~ md("*SD*")) %>% 
+  gt::cols_align(align = "center") %>% 
+  opt_stylize(style = 2,color = "red")
+```
+
+```{r graph}
+#| label: fig-1
+#| fig-cap-location: top
+#| fig-cap: "Flipper Length By Sex"
+
+library(ggtext)
+
+ggplot(data=data,aes(x=sex,y=flipper_length_mm,color=sex)) + 
+  geom_col(show.legend = FALSE) +
+  scale_color_manual(values = c("red", "blue")) + 
+  labs(x="Sex",y="Flipper Length (mm)") +
+  theme_classic() + 
+  theme(plot.title = element_markdown())
+```
+

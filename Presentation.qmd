@@ -41,9 +41,18 @@ format:
 
 ## Adding Pages
 
+- As with most websites, you might wish to add pages
+  - Maybe a blog? CV? Resume? Portfolio?
+  - A majority of this happens in the `quarto.yml` file
+    - We will spend a lot of time toying with this file today
+
 ## Navigation Panel Changes
 
 ## Adding Socials
+
+- Pretty flexible
+- Uses bootstrap icons
+  - A full list can be found [here](https://icons.getbootstrap.com/)
 
 ## Adding CV/Resume
 
@@ -54,6 +63,7 @@ format:
 - The default theme isn't the only one you can do
 - By default there are 12 pre-made options
   - `flatly` is the default. `darkly` is the dark-mode version
+  - Can find all of them [here](https://github.com/quarto-dev/quarto-cli/tree/main/src/resources/formats/revealjs/themes)
 - However, they're open source and the files can be changed or modified
   - As long as you know SCSS
     - I don't know either one (well), BUT ChatGPT and Google help
