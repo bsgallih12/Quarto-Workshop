@@ -6,13 +6,9 @@ The following will be covered:
 
 - How To Add Pages
 - Navigation Modification
-- Adding Contact Information (e.g., <i class="fa-brands fa-x-twitter"></i>, <i class="fa-regular fa-envelope"></i>, <i class="fa-brands fa-square-github"></i>)
+- Adding Contact Information
 - Adding File Attachments (e.g., CV/Resume)
   - Including Drop Down
 - Adding Projects
 - Changing Website Appearance
 - Publishing Content
-
-<i class="fas fa-icon-name"></i>
-<i class="fas fa-icon-name"></i>
-<i class="fas fa-icon-name"></i>
