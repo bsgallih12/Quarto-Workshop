@@ -1,0 +1,18 @@
+/* css styles */
+
+.navbar {
+    background-color: #880009; // Replace with your desired color
+}
+
+.quarto-title-banner {
+    background-color:  #880009; /* Replace #yourcolor with the desired color */
+    color: #fff; /* Optionally, change the text color */
+}
+
+.reveal .slides section h2 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center; /* Change to 'right' or 'justify' if needed */
+}

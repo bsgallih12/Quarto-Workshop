@@ -16,21 +16,23 @@ website:
       #     text: CV
       # - href: Thesis_2021.pdf
       #   text: Thesis
-      - href: projects.qmd
-        text: Projects
+      # - href: projects.qmd
+      #   text: Projects
       # - href: Presentation.qmd
       #   text: Presentation
-      - icon: github
-        href: https://github.com/bsgallih12
-      - icon: twitter
-        href: https://twitter.com/Brier_Gallihugh
-      - icon: envelope
-        href: mailto:bg464219@ohio.edu
+      # - href: https://www.youtube.com/watch?v=yvi5uXQMvu4
+      #   text: Outside Link
+      # - icon: github
+      #   href: https://github.com/bsgallih12
+      # - icon: twitter
+      #   href: https://twitter.com/Brier_Gallihugh
+      # - icon: envelope
+      #   href: mailto:bg464219@ohio.edu
 format:
-  html:
-    theme: darkly
-    toc: true
-    css: styles.css
+  html: default
+    # theme: darkly
+    # toc: true
+    # css: styles.css
 
 
 

@@ -48,6 +48,12 @@ format:
 
 ## Navigation Panel Changes
 
+- There are a couple options (sidebar, navbar or combo of both)
+  - I would use a navbar if you don't have too many headings
+  - Sidebar if you have a lot
+  - Most websites use a navbar and its the one we'll use
+  - For more info on sidebar options, see the Quarto [documentation](https://quarto.org/docs/websites/website-navigation.html)
+
 ## Adding Socials
 
 - Pretty flexible
@@ -56,7 +62,19 @@ format:
 
 ## Adding CV/Resume
 
+- You can do this a couple ways
+  - Pure HTML version (difficult if not well versed in HTML)
+  - Just a download option (Word)
+  - Both readable and with a download option (PDF)
+- We'll use the last one for this workshop and its super simple
+
 ## Adding Projects/Talks/Presentations
+
+- There are a couple options here:
+  - Just upload a repository of PDF versions of slides
+  - Create a reveal.js slide that can be hosted within the website
+  - Could link out to a video (e.g., Google Drive) or YT talk (anything with a URL)
+- I'll show you all 3 options
 
 ## Changing Theme Appearance
 
@@ -65,7 +83,7 @@ format:
   - `flatly` is the default. `darkly` is the dark-mode version
   - Can find all of them [here](https://github.com/quarto-dev/quarto-cli/tree/main/src/resources/formats/revealjs/themes)
 - However, they're open source and the files can be changed or modified
-  - As long as you know SCSS
+  - As long as you know CSS/SCSS
     - I don't know either one (well), BUT ChatGPT and Google help
     - I'll show you a couple things quick
 
@@ -77,6 +95,7 @@ format:
 
 - Several options to publish
 - Personally I think Netlify is the best because you get some choice over your web address (and it's free^1^)
+- But a full list of options are [here](https://quarto.org/docs/publishing/)
   
 :::{.callout-important}
 # Caution
