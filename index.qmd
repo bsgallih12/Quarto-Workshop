@@ -1,5 +1,5 @@
 ---
-title: "Academic and Personal Website Creation: A Quarto Tutorial"
+title: "Website Creation: A Quarto Tutorial"
 echo: false
 ---
 

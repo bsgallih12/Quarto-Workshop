@@ -12,3 +12,7 @@
 .reveal .slides section h2 {
     text-align: center;
 }
+
+h2 {
+    text-align: center; /* Change to 'right' or 'justify' if needed */
+}

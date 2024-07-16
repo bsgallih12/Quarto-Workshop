@@ -2,6 +2,7 @@
 title: "My Data Science Project"
 author: "Brier S. Gallihugh"
 date: "2024-07-18"
+date-format: "MMMM D, YYYY"
 categories: [Quarto,R,Workshop]
 # image: twitter_upload_tt_1_25_23.png
 # image-alt: "A word cloud of mostly commonly discarded items on Alone"
@@ -20,8 +21,13 @@ format-links:
   # - format: typst
   #   text: PDF
   #   icon: file-pdf
+other-links:
+  - text: PalmerPenguin Data
+    href: https://allisonhorst.github.io/palmerpenguins/articles/intro.html
+    icon: floppy
 csl: apa.csl
 citeproc: true
+css: styles.css
 bibliographystyle: apa
 nocite: |
   @*
@@ -52,6 +58,8 @@ data = palmerpenguins::penguins %>% na.omit() %>% select(flipper_length_mm,bill_
 
 
 `r lorem::ipsum(paragraphs=1,sentences=4)`. For more info see @tbl-species-variance
+
+For the equation used, please see @eq-example
 
 
 ## Discussion
@@ -90,14 +98,18 @@ data %>% group_by(species) %>%
 #| label: fig-1
 #| fig-cap-location: top
 #| fig-cap: "Flipper Length By Sex"
+#| fig-dpi: 600
 
 library(ggtext)
 
-ggplot(data=data,aes(x=sex,y=flipper_length_mm,color=sex)) + 
-  geom_col(show.legend = FALSE) +
-  scale_color_manual(values = c("red", "blue")) + 
-  labs(x="Sex",y="Flipper Length (mm)") +
+data2 <- data %>% select(sex,flipper_length_mm) %>% group_by(sex) %>% summarize(mean = mean(flipper_length_mm,na.rm = TRUE))
+
+ggplot(data=data2,aes(x=sex,y=mean,fill=sex)) + 
+  geom_col(color = "black",show.legend = FALSE) +
+  scale_fill_manual(values = c("red", "blue")) + 
+  labs(x="Sex",y="Flipper Length (m)") +
   theme_classic() + 
   theme(plot.title = element_markdown())
 ```
 
+$$\beta_1 = (\frac{s_y}{s_1})(\frac{r_{y_1}-r_{y_2}r_{12}}{1 - r_{12}^{2}})$$ {#eq-example}

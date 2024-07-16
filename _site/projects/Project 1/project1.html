@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2024-07-18">
 <meta name="description" content="A mock data science project">
 
-<title>My Data Science Project – Academic and Personal Website Creation: A Quarto Tutorial</title>
+<title>My Data Science Project – Website Creation: A Quarto Tutorial</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -90,8 +90,38 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -102,7 +132,7 @@ div.csl-indent {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Academic and Personal Website Creation: A Quarto Tutorial</span>
+    <span class="navbar-title">Website Creation: A Quarto Tutorial</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -181,7 +211,7 @@ div.csl-indent {
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   <li><a href="#appendices" id="toc-appendices" class="nav-link" data-scroll-target="#appendices">Appendices</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="project1.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="project1.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://allisonhorst.github.io/palmerpenguins/articles/intro.html"><i class="bi bi-floppy"></i>PalmerPenguin Data</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -229,36 +259,37 @@ div.csl-indent {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Adipiscing mi rhoncus sagittis eros gravida. Magnis neque senectus habitant netus urna accumsan bibendum lacus sem porttitor nulla hendrerit! Scelerisque scelerisque per maecenas at; conubia – vitae tempor scelerisque. Pulvinar tristique sapien, aenean; habitant eget habitasse class facilisis, inceptos tortor inceptos duis tortor.</p>
-<p>Ipsum nunc scelerisque porta himenaeos mi porttitor mauris aenean. Quis curae facilisis himenaeos eleifend, sodales bibendum. Orci ridiculus imperdiet nostra dictumst, ultricies, natoque ante blandit integer metus! Ad varius lobortis; tristique metus, feugiat netus cum vulputate quisque ut quam ullamcorper pretium mus.</p>
-<p>Adipiscing dictumst curae etiam non, vivamus cubilia semper ullamcorper. Sociosqu class in tincidunt integer eleifend aliquam ornare felis. Elementum vestibulum aenean nisi – justo augue, pulvinar, volutpat tristique. Lacinia aptent leo euismod lectus platea porttitor est purus?</p>
-<p>Sit mattis imperdiet cum non bibendum felis ante! Mollis eget consequat nostra tincidunt class; viverra est orci et nam velit. Molestie primis morbi libero ad aptent congue! Enim cubilia nam inceptos ante phasellus, quisque purus tincidunt tortor, integer convallis lobortis condimentum massa.</p>
+<p>Sit sapien natoque eleifend malesuada dictum hendrerit – varius dui primis sem? Ultricies habitant penatibus curabitur vitae scelerisque, mollis, conubia fermentum platea dis, quis vivamus. Pulvinar tristique integer magna quisque commodo natoque hendrerit! Viverra nec dignissim: nisl vehicula suspendisse fames?</p>
+<p>Sit habitasse cum. Tincidunt hac eleifend phasellus dignissim sapien diam cubilia phasellus ligula. Faucibus odio varius. Leo porttitor leo etiam nec arcu sagittis diam felis eleifend porttitor dictum metus erat; scelerisque mollis torquent vel auctor, libero, enim vel dis himenaeos quisque mattis nascetur euismod.</p>
+<p>Amet iaculis euismod platea tellus curae posuere. Tempor turpis mi id primis, lacus ultricies lacus vulputate ornare tristique. Iaculis risus nisl sapien: dapibus iaculis pulvinar, magna tellus blandit cras eget. Felis egestas in ultrices inceptos enim fringilla malesuada morbi!</p>
+<p>Ipsum enim pharetra natoque molestie senectus himenaeos pellentesque. Egestas mus nisi maecenas pharetra cursus. Pulvinar dictumst hac maecenas conubia natoque leo dapibus orci lacus per semper. Torquent conubia diam at.</p>
 </section>
 <section id="methods" class="level2">
 <h2 class="anchored" data-anchor-id="methods">Methods</h2>
-<p>Dolor natoque volutpat nullam erat quisque enim. Erat dui vel netus turpis vivamus odio hac! Litora commodo primis, sociosqu velit arcu sed non: ridiculus tellus erat id in elementum. Potenti sodales volutpat, habitant metus ut arcu.</p>
-<p>Dolor feugiat nisl senectus praesent natoque, nunc per mauris odio natoque nec. Congue placerat natoque, tempus bibendum lacinia fames duis velit risus felis. Morbi himenaeos sapien inceptos sociis; viverra nam cum, sollicitudin duis venenatis. Augue sociosqu dis nec pellentesque condimentum!</p>
-<p>Adipiscing bibendum placerat sagittis duis euismod sem curabitur erat tortor nisl quam. Tempor dictum pretium, potenti porta convallis leo gravida feugiat eu etiam maecenas. A donec vehicula sociis, sociosqu turpis metus tincidunt tortor erat vehicula. Tempor nibh natoque dictum penatibus mi imperdiet.</p>
-<p>Consectetur hendrerit est at augue, donec risus ridiculus pulvinar laoreet habitasse. Mi montes interdum ridiculus blandit – integer praesent quisque. Molestie conubia cras suspendisse, laoreet consequat velit hendrerit. Nostra imperdiet aliquet natoque class turpis platea – fames felis nunc, felis dictumst pulvinar nunc, euismod tortor vivamus – mattis diam velit neque integer dictum.</p>
+<p>Ipsum augue egestas – faucibus, ullamcorper lobortis torquent ultricies mus aptent vitae! Tellus ad, sagittis id ac quis nulla magnis venenatis imperdiet ultricies feugiat nascetur pretium. Lobortis vel senectus rhoncus iaculis convallis natoque iaculis dis tellus. Et nisi at metus congue, magna ornare scelerisque viverra eget.</p>
+<p>Sit rhoncus quam nec gravida donec non nostra viverra pretium arcu nascetur. Ullamcorper justo volutpat orci quam morbi lobortis molestie: id a semper nisl. Turpis viverra vel cubilia – habitant nibh tempor lacinia mi? Morbi quisque sed nibh, sapien mus, montes dignissim consequat montes, sagittis: fames primis tortor libero egestas primis aptent feugiat.</p>
+<p>Consectetur elementum quis feugiat, porttitor augue facilisis etiam nullam phasellus himenaeos. Id ligula maecenas aliquet augue venenatis posuere odio, facilisi netus, mauris lobortis ridiculus! Pellentesque curabitur lectus torquent magna. Diam sed magnis congue ridiculus scelerisque – interdum magnis luctus non erat justo montes.</p>
+<p>Sit conubia senectus ad netus donec massa nullam dictum fermentum? Magna est fermentum mauris fermentum eros parturient, fusce, quis hendrerit, luctus, justo velit ornare mauris. Sociis sapien semper dictumst cum erat in phasellus lacinia accumsan pellentesque? Cras tempus erat felis penatibus mus rhoncus, sagittis posuere justo.</p>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
-<p>Sit fames integer ac, class quam fringilla penatibus lectus! Phasellus dui velit nunc dapibus quisque? Tempor ante duis taciti pulvinar sociosqu litora – viverra curabitur! Tristique gravida rutrum erat cursus scelerisque mattis fringilla congue orci quam vel nullam blandit, sagittis sem tempus, nullam bibendum habitant!. For more info see <a href="#fig-1" class="quarto-xref">Figure&nbsp;1</a></p>
-<p>Dolor nunc nascetur laoreet per habitasse a. Semper justo nullam iaculis cursus lectus, hendrerit, libero velit interdum. Fames ligula placerat sem aliquet sociis, quisque dignissim platea. Tempor sodales parturient leo porttitor, mauris nisl porta venenatis eget?. For more info see <a href="#tbl-species-variance" class="quarto-xref">Table&nbsp;1</a></p>
+<p>Ipsum pulvinar quis commodo pellentesque at vitae etiam placerat. Convallis etiam maecenas etiam ridiculus suspendisse eu neque iaculis feugiat cum sociosqu phasellus. Ante sociis justo malesuada mauris urna nunc bibendum commodo fames nullam mattis. Est commodo faucibus penatibus commodo dis malesuada nam odio.. For more info see <a href="#fig-1" class="quarto-xref">Figure&nbsp;1</a></p>
+<p>Amet nisi natoque lectus augue libero magna orci maecenas non sapien! Diam erat ridiculus fringilla maecenas; egestas nam molestie egestas. Non eleifend nibh sociosqu donec congue iaculis eget. Pellentesque quam fames tempus: dis venenatis cursus vestibulum ut dui nullam sodales habitasse per tempus purus.. For more info see <a href="#tbl-species-variance" class="quarto-xref">Table&nbsp;1</a></p>
+<p>For the equation used, please see <a href="#eq-example" class="quarto-xref">Equation&nbsp;1</a></p>
 </section>
 <section id="discussion" class="level2">
 <h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
-<p>Elit sociosqu imperdiet ullamcorper penatibus nisl pellentesque tincidunt libero ac. Integer sed auctor nascetur neque vehicula praesent massa sociis. Mus et nisl, senectus taciti mus, hac curae id turpis nunc habitant facilisi. Nam metus vel vitae lacinia: aliquet posuere, tristique eget aptent urna.</p>
-<p>Sit neque ridiculus inceptos dictumst, etiam facilisi tempus cubilia facilisis. A magna vulputate curae luctus natoque rhoncus facilisis! Eu nulla pulvinar pharetra iaculis eget libero ac urna ut semper? Nec condimentum rhoncus nascetur nam aliquam lacinia sociosqu, ridiculus, vehicula ullamcorper semper faucibus convallis vulputate.</p>
-<p>Adipiscing nibh curabitur, ultricies viverra, class ornare suspendisse. Eleifend pretium orci ut placerat, rutrum ad habitant phasellus torquent libero. Erat nec risus fringilla egestas, id integer erat. Sed sagittis senectus convallis eros, tristique cursus etiam neque quis, aenean phasellus habitasse!</p>
-<p>Adipiscing lacinia est augue nostra parturient sociosqu imperdiet ridiculus netus – himenaeos ut lectus. Mollis integer ut faucibus euismod cum, ut – suspendisse imperdiet risus mattis! Habitant aliquet euismod ultrices nisi sapien conubia himenaeos mus diam! Sociosqu suspendisse elementum nulla dui – nascetur orci lacus.</p>
+<p>Consectetur sollicitudin leo ornare risus vehicula mauris venenatis ligula fermentum. Habitasse nunc porttitor integer, ligula porta tortor, ornare arcu lacinia parturient. Morbi hendrerit suspendisse venenatis hac magnis, felis augue cursus! Nisl senectus magna praesent consequat nisi posuere primis taciti, condimentum per aptent.</p>
+<p>Consectetur dictum curabitur ultrices pretium mauris nisi donec tempor – a a placerat montes. Nibh tempor augue litora odio, massa pretium lacinia diam erat eros. Sollicitudin per enim neque, parturient ultrices placerat, aenean cras, sapien porttitor curabitur mattis. Na mattis.</p>
+<p>Sit suscipit imperdiet natoque magna venenatis convallis faucibus ultrices cras. Duis eros hendrerit, elementum tempor rutrum, consequat aptent! Arcu dis natoque nisl potenti cras bibendum donec litora! A nisi ante himenaeos lacus pretium conubia, vivamus faucibus mollis convallis condimentum, facilisi arcu id nunc a pharetra.</p>
+<p>Sit ut integer, fames litora auctor praesent cras gravida, eleifend himenaeos. Mus enim ridiculus augue fermentum rutrum? Natoque curabitur vel ullamcorper, dignissim mi scelerisque class ad mauris fermentum venenatis! Facilisi tortor quis cum et aliquet potenti tempor dui pellentesque.</p>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>Amet dui: sociosqu quis id. Ultrices porttitor quis hendrerit: vehicula per aliquet malesuada massa odio. At inceptos feugiat, mauris nulla in praesent himenaeos molestie proin. In metus volutpat lacus risus vestibulum luctus, ridiculus massa; laoreet nullam diam est, senectus aenean.</p>
-<p>Dolor cras: sociis ad fringilla ornare accumsan hac quam magna a. Nullam rutrum sociis pellentesque vitae feugiat luctus sociis quis eu! Penatibus gravida lectus. Est volutpat nec, aenean non fames aptent non dictumst tellus urna ac mattis.</p>
-<p>Sit vitae ut sed vivamus, ligula cum magna, dapibus consequat? Ultrices arcu mus molestie – dis enim lobortis mauris aenean odio tincidunt vestibulum. Curabitur mi aliquet molestie ligula nibh habitasse accumsan, varius magna molestie dui! Massa imperdiet lectus mauris!</p>
-<p>Consectetur nascetur hendrerit libero magna. Habitant praesent metus ultricies turpis semper vestibulum nibh eros eleifend hac. Nulla pharetra scelerisque, dapibus cras id nunc penatibus, iaculis duis? Mauris justo placerat himenaeos nostra, netus odio curabitur tortor quisque, non cras velit hac cras tempor metus urna laoreet!</p>
+<p>Adipiscing lobortis rhoncus per eget praesent erat, a tincidunt litora morbi. Quisque purus porttitor habitasse arcu non sapien ornare cubilia, integer cursus montes facilisi. Curae curabitur gravida vehicula, rutrum phasellus lectus cum. Nascetur himenaeos ultrices nibh malesuada.</p>
+<p>Sit netus auctor lectus, mus pharetra mattis. Purus suscipit class, purus aenean pellentesque, lectus praesent duis. Feugiat nam fusce, magna felis posuere at? Bibendum cras at platea quis taciti neque varius ultrices, ligula nisi aenean vel aenean nascetur; fames ridiculus eleifend phasellus erat per ac netus.</p>
+<p>Lorem curae lacinia habitasse curae sagittis hendrerit sed sapien! Euismod vel nec ac, dapibus augue, cras orci phasellus. Etiam mi sociis aptent malesuada, in fusce sapien ut, lacinia orci scelerisque etiam dictum. Praesent fames nisi porttitor risus varius metus eu magnis maecenas lacus netus.</p>
+<p>Dolor ad condimentum elementum in mi, est facilisis pellentesque torquent iaculis dictumst tincidunt. Metus commodo porta et feugiat gravida; inceptos nascetur dis nascetur. Dictumst sapien praesent mattis vestibulum luctus. Consequat orci interdum blandit class: vestibulum, ornare dignissim placerat nibh luctus tempor: netus torquent.</p>
 </section>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <section id="references" class="level2">
@@ -290,23 +321,23 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
 </figcaption>
 <div aria-describedby="tbl-species-variance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="lqtfwhmaui" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#lqtfwhmaui table {
+<div id="kflglqngwt" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#kflglqngwt table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#lqtfwhmaui thead, #lqtfwhmaui tbody, #lqtfwhmaui tfoot, #lqtfwhmaui tr, #lqtfwhmaui td, #lqtfwhmaui th {
+#kflglqngwt thead, #kflglqngwt tbody, #kflglqngwt tfoot, #kflglqngwt tr, #kflglqngwt td, #kflglqngwt th {
   border-style: none;
 }
 
-#lqtfwhmaui p {
+#kflglqngwt p {
   margin: 0;
   padding: 0;
 }
 
-#lqtfwhmaui .gt_table {
+#kflglqngwt .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -332,12 +363,12 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   border-left-color: #D5D5D5;
 }
 
-#lqtfwhmaui .gt_caption {
+#kflglqngwt .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#lqtfwhmaui .gt_title {
+#kflglqngwt .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -349,7 +380,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   border-bottom-width: 0;
 }
 
-#lqtfwhmaui .gt_subtitle {
+#kflglqngwt .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -361,7 +392,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   border-top-width: 0;
 }
 
-#lqtfwhmaui .gt_heading {
+#kflglqngwt .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -373,13 +404,13 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   border-right-color: #D3D3D3;
 }
 
-#lqtfwhmaui .gt_bottom_border {
+#kflglqngwt .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D5D5D5;
 }
 
-#lqtfwhmaui .gt_col_headings {
+#kflglqngwt .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D5D5D5;
@@ -394,7 +425,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   border-right-color: #D3D3D3;
 }
 
-#lqtfwhmaui .gt_col_heading {
+#kflglqngwt .gt_col_heading {
   color: #FFFFFF;
   background-color: #A81600;
   font-size: 100%;
@@ -414,7 +445,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   overflow-x: hidden;
 }
 
-#lqtfwhmaui .gt_column_spanner_outer {
+#kflglqngwt .gt_column_spanner_outer {
   color: #FFFFFF;
   background-color: #A81600;
   font-size: 100%;
@@ -426,15 +457,15 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   padding-right: 4px;
 }
 
-#lqtfwhmaui .gt_column_spanner_outer:first-child {
+#kflglqngwt .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#lqtfwhmaui .gt_column_spanner_outer:last-child {
+#kflglqngwt .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#lqtfwhmaui .gt_column_spanner {
+#kflglqngwt .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D5D5D5;
@@ -446,11 +477,11 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   width: 100%;
 }
 
-#lqtfwhmaui .gt_spanner_row {
+#kflglqngwt .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#lqtfwhmaui .gt_group_heading {
+#kflglqngwt .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -476,7 +507,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   text-align: left;
 }
 
-#lqtfwhmaui .gt_empty_group_heading {
+#kflglqngwt .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -491,15 +522,15 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   vertical-align: middle;
 }
 
-#lqtfwhmaui .gt_from_md > :first-child {
+#kflglqngwt .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#lqtfwhmaui .gt_from_md > :last-child {
+#kflglqngwt .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#lqtfwhmaui .gt_row {
+#kflglqngwt .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -518,7 +549,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   overflow-x: hidden;
 }
 
-#lqtfwhmaui .gt_stub {
+#kflglqngwt .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -531,7 +562,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   padding-right: 5px;
 }
 
-#lqtfwhmaui .gt_stub_row_group {
+#kflglqngwt .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -545,15 +576,15 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   vertical-align: top;
 }
 
-#lqtfwhmaui .gt_row_group_first td {
+#kflglqngwt .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#lqtfwhmaui .gt_row_group_first th {
+#kflglqngwt .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#lqtfwhmaui .gt_summary_row {
+#kflglqngwt .gt_summary_row {
   color: #333333;
   background-color: #FFCCC7;
   text-transform: inherit;
@@ -563,16 +594,16 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   padding-right: 5px;
 }
 
-#lqtfwhmaui .gt_first_summary_row {
+#kflglqngwt .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D5D5D5;
 }
 
-#lqtfwhmaui .gt_first_summary_row.thick {
+#kflglqngwt .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#lqtfwhmaui .gt_last_summary_row {
+#kflglqngwt .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -582,7 +613,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   border-bottom-color: #D5D5D5;
 }
 
-#lqtfwhmaui .gt_grand_summary_row {
+#kflglqngwt .gt_grand_summary_row {
   color: #FFFFFF;
   background-color: #FF644E;
   text-transform: inherit;
@@ -592,7 +623,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   padding-right: 5px;
 }
 
-#lqtfwhmaui .gt_first_grand_summary_row {
+#kflglqngwt .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -602,7 +633,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   border-top-color: #D5D5D5;
 }
 
-#lqtfwhmaui .gt_last_grand_summary_row_top {
+#kflglqngwt .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -612,11 +643,11 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   border-bottom-color: #D5D5D5;
 }
 
-#lqtfwhmaui .gt_striped {
+#kflglqngwt .gt_striped {
   background-color: #F4F4F4;
 }
 
-#lqtfwhmaui .gt_table_body {
+#kflglqngwt .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D5D5D5;
@@ -625,7 +656,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   border-bottom-color: #D5D5D5;
 }
 
-#lqtfwhmaui .gt_footnotes {
+#kflglqngwt .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -639,7 +670,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   border-right-color: #D3D3D3;
 }
 
-#lqtfwhmaui .gt_footnote {
+#kflglqngwt .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -648,7 +679,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   padding-right: 5px;
 }
 
-#lqtfwhmaui .gt_sourcenotes {
+#kflglqngwt .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -662,7 +693,7 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   border-right-color: #D3D3D3;
 }
 
-#lqtfwhmaui .gt_sourcenote {
+#kflglqngwt .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -670,63 +701,63 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
   padding-right: 5px;
 }
 
-#lqtfwhmaui .gt_left {
+#kflglqngwt .gt_left {
   text-align: left;
 }
 
-#lqtfwhmaui .gt_center {
+#kflglqngwt .gt_center {
   text-align: center;
 }
 
-#lqtfwhmaui .gt_right {
+#kflglqngwt .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#lqtfwhmaui .gt_font_normal {
+#kflglqngwt .gt_font_normal {
   font-weight: normal;
 }
 
-#lqtfwhmaui .gt_font_bold {
+#kflglqngwt .gt_font_bold {
   font-weight: bold;
 }
 
-#lqtfwhmaui .gt_font_italic {
+#kflglqngwt .gt_font_italic {
   font-style: italic;
 }
 
-#lqtfwhmaui .gt_super {
+#kflglqngwt .gt_super {
   font-size: 65%;
 }
 
-#lqtfwhmaui .gt_footnote_marks {
+#kflglqngwt .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#lqtfwhmaui .gt_asterisk {
+#kflglqngwt .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#lqtfwhmaui .gt_indent_1 {
+#kflglqngwt .gt_indent_1 {
   text-indent: 5px;
 }
 
-#lqtfwhmaui .gt_indent_2 {
+#kflglqngwt .gt_indent_2 {
   text-indent: 10px;
 }
 
-#lqtfwhmaui .gt_indent_3 {
+#kflglqngwt .gt_indent_3 {
   text-indent: 15px;
 }
 
-#lqtfwhmaui .gt_indent_4 {
+#kflglqngwt .gt_indent_4 {
   text-indent: 20px;
 }
 
-#lqtfwhmaui .gt_indent_5 {
+#kflglqngwt .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -772,12 +803,13 @@ Table&nbsp;1: Mean and Variance of Flipper Length By Species
 Figure&nbsp;1: Flipper Length By Sex
 </figcaption>
 <div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="project1_files/figure-html/fig-1-1.png" class="img-fluid figure-img" width="672">
+<img src="project1_files/figure-html/fig-1-1.png" class="img-fluid figure-img" width="4200">
 </div>
 </figure>
 </div>
 </div>
 </div>
+<p><span id="eq-example"><span class="math display">\[\beta_1 = (\frac{s_y}{s_1})(\frac{r_{y_1}-r_{y_2}r_{12}}{1 - r_{12}^{2}}) \tag{1}\]</span></span></p>
 
 
 </section>

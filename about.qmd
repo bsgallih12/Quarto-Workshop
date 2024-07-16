@@ -1,6 +1,5 @@
 ---
 title: "About This Workshop"
-author: "Brier Gallihugh, M.S."
 echo: false
 ---
 
