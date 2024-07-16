@@ -8,16 +8,18 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - text: Resume & CV
-        menu:
-        - href: Resume.pdf
-          text: Resume
-        - href: CV.pdf
-          text: CV
+      # - text: Resume & CV
+      #   menu:
+      #   - href: Resume.pdf
+      #     text: Resume
+      #   - href: CV.pdf
+      #     text: CV
+      # - href: Thesis_2021.pdf
+      #   text: Thesis
       - href: projects.qmd
         text: Projects
-      - href: Presentation.qmd
-        text: Presentation
+      # - href: Presentation.qmd
+      #   text: Presentation
       - icon: github
         href: https://github.com/bsgallih12
       - icon: twitter

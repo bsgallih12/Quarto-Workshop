@@ -11,20 +11,20 @@ echo: false
 bibliography: packages.bib
 format: 
   html: default
-  typst: default
+  # typst: default
     # columns: 2
     # mainfont: "Apple Chancery"
     # fontsize: "12pt"
-format-links:
-  - html
-  - typst
+# format-links:
+#   - html
+#   - typst
   # - format: typst
   #   text: PDF
   #   icon: file-pdf
-other-links:
-  - text: PalmerPenguin Data
-    href: https://allisonhorst.github.io/palmerpenguins/articles/intro.html
-    icon: floppy
+# other-links:
+#   - text: PalmerPenguin Data
+#     href: https://allisonhorst.github.io/palmerpenguins/articles/intro.html
+#     icon: floppy
 csl: apa.csl
 citeproc: true
 css: styles.css
