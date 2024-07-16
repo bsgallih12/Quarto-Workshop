@@ -12,7 +12,3 @@ The following will be covered:
 - Adding Projects
 - Changing Website Appearance
 - Publishing Content
-
-<i class="fas fa-icon-name"></i>
-<i class="fas fa-icon-name"></i>
-<i class="fas fa-icon-name"></i>
