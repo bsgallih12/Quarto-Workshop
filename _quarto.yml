@@ -8,31 +8,36 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      # - text: Resume & CV
-      #   menu:
-      #   - href: Resume.pdf
-      #     text: Resume
-      #   - href: CV.pdf
-      #     text: CV
+      - href: test.qmd
+        text: Test
+      - text: Resume & CV
+        menu:
+        - href: Resume.pdf
+          text: Resume
+        - href: CV.pdf
+          text: CV
       # - href: Thesis_2021.pdf
       #   text: Thesis
-      # - href: projects.qmd
-      #   text: Projects
-      # - href: Presentation.qmd
-      #   text: Presentation
-      # - href: https://www.youtube.com/watch?v=yvi5uXQMvu4
+      - href: projects.qmd
+        text: Projects
+      - href: Presentation.qmd
+        text: Presentation
+      - href: https://www.youtube.com/watch?v=yvi5uXQMvu4
+        text: Talk
       #   text: Outside Link
-      # - icon: github
-      #   href: https://github.com/bsgallih12
-      # - icon: twitter
-      #   href: https://twitter.com/Brier_Gallihugh
-      # - icon: envelope
-      #   href: mailto:bg464219@ohio.edu
+      - icon: github
+        href: https://github.com/bsgallih12
+      - icon: twitter
+        href: https://twitter.com/Brier_Gallihugh
+      - icon: envelope
+        href: mailto:bg464219@ohio.edu
 format:
-  html: default
-    # theme: darkly
+  html:
+    theme:
+      light: flatly
+      dark: darkly
     # toc: true
-    # css: styles.css
+    css: styles.css
 
 
 

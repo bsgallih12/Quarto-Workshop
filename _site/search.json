@@ -1,17 +1,73 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About This Workshop",
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "test",
     "section": "",
-    "text": "Consectetur neque ultricies eros viverra nulla. Penatibus cubilia fusce a eleifend: quisque feugiat urna lacus. Class vulputate suspendisse dui hac blandit vivamus enim mauris, egestas, iaculis phasellus eget. Pulvinar eget mollis ad, libero aptent ut magnis pulvinar viverra! Integer fringilla urna facilisi per ac molestie enim pulvinar nascetur, cubilia est orci aliquet.\nSit odio nulla congue nisi porta: parturient quis. Sodales luctus; bibendum ultricies dapibus tortor nascetur. Hac quam habitasse turpis torquent taciti commodo maecenas mauris curae! Vivamus praesent varius risus cubilia pulvinar, praesent non class ornare. Aliquet augue id faucibus rutrum senectus natoque sem conubia!\nElit conubia fames fringilla arcu ornare dictumst augue – risus vulputate magnis aliquam. Tortor nulla eget hendrerit lacus at a ad consequat vehicula inceptos platea. Ultrices odio ornare mattis cum platea hendrerit pharetra ad massa odio nascetur accumsan? Mattis hendrerit commodo sollicitudin, fringilla mus scelerisque mauris curabitur! Condimentum eu."
+    "text": "This is a test"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Website Creation: A Quarto Tutorial",
     "section": "",
-    "text": "My Data Science Project\n\n\n\n\n\n\nQuarto\n\n\nR\n\n\nWorkshop\n\n\n\nA mock data science project\n\n\n\n\n\nJul 18, 2024\n\n\nBrier S. Gallihugh\n\n\n\n\n\n\nNo matching items"
+    "text": "Adipiscing convallis euismod felis blandit, blandit curabitur litora, pretium inceptos tempor sodales duis pharetra nunc! Accumsan malesuada risus, velit et congue laoreet laoreet pulvinar? Hendrerit sapien felis lacus sollicitudin, metus tempor. Tristique ac eget quis metus dictum nisi litora blandit odio luctus commodo! Faucibus nostra gravida nunc.\nLorem commodo scelerisque litora justo ut lacinia habitant per, fames a orci, magna fringilla litora. Quis malesuada suspendisse lectus sodales habitant. Orci gravida sociis et enim curae sagittis ultrices sapien quisque rutrum blandit. Curabitur non non convallis curabitur feugiat est, hendrerit ad eget. Facilisi cubilia curabitur cras, ut laoreet blandit sed viverra semper, aliquam euismod quisque elementum.\nIpsum orci mauris tellus, accumsan tincidunt pellentesque fusce porta, rutrum hac sollicitudin vulputate. Cubilia himenaeos donec torquent suscipit ad velit malesuada dis integer. Ornare nostra cras volutpat integer; habitant pulvinar iaculis eleifend porta potenti. Gravida tempor suspendisse sodales molestie orci tincidunt donec tristique quisque, cubilia quisque laoreet senectus! Na senectus."
+  },
+  {
+    "objectID": "projects/Project 1/project1.html",
+    "href": "projects/Project 1/project1.html",
+    "title": "My Data Science Project",
+    "section": "",
+    "text": "Elit pulvinar eget rhoncus orci ut dignissim lacinia aliquet pulvinar. Nibh venenatis morbi ante class tellus dignissim; lectus porttitor, magnis tempus sodales habitant porta. Convallis dui vel tellus eu varius euismod imperdiet bibendum? Aliquam neque cursus urna turpis mauris.\nSit pulvinar fermentum aliquet scelerisque metus imperdiet odio turpis ante, sociis fusce mus. Luctus potenti elementum arcu suspendisse id placerat. Netus cum aptent vitae ornare, sociosqu mi mi orci eget. Commodo dictumst dictum pretium; nullam habitant lobortis sodales molestie massa, imperdiet, blandit nec neque a.\nSit lobortis, potenti eget condimentum mauris blandit dis! Commodo sapien malesuada sed arcu pharetra pretium. Ultrices lacinia hac aptent, erat – elementum eget proin eget maecenas accumsan. Faucibus natoque netus, nam dis rhoncus; integer placerat dapibus tellus.\nAmet eleifend class potenti lacus, gravida cras per lobortis nisl. Mauris varius montes tortor proin taciti sem lacinia urna varius blandit praesent. Congue mi blandit pulvinar est, egestas, urna – mi semper parturient congue. Eget sagittis convallis accumsan tempus, lectus, aliquam volutpat – orci id posuere torquent laoreet."
+  },
+  {
+    "objectID": "projects/Project 1/project1.html#introduction",
+    "href": "projects/Project 1/project1.html#introduction",
+    "title": "My Data Science Project",
+    "section": "",
+    "text": "Elit pulvinar eget rhoncus orci ut dignissim lacinia aliquet pulvinar. Nibh venenatis morbi ante class tellus dignissim; lectus porttitor, magnis tempus sodales habitant porta. Convallis dui vel tellus eu varius euismod imperdiet bibendum? Aliquam neque cursus urna turpis mauris.\nSit pulvinar fermentum aliquet scelerisque metus imperdiet odio turpis ante, sociis fusce mus. Luctus potenti elementum arcu suspendisse id placerat. Netus cum aptent vitae ornare, sociosqu mi mi orci eget. Commodo dictumst dictum pretium; nullam habitant lobortis sodales molestie massa, imperdiet, blandit nec neque a.\nSit lobortis, potenti eget condimentum mauris blandit dis! Commodo sapien malesuada sed arcu pharetra pretium. Ultrices lacinia hac aptent, erat – elementum eget proin eget maecenas accumsan. Faucibus natoque netus, nam dis rhoncus; integer placerat dapibus tellus.\nAmet eleifend class potenti lacus, gravida cras per lobortis nisl. Mauris varius montes tortor proin taciti sem lacinia urna varius blandit praesent. Congue mi blandit pulvinar est, egestas, urna – mi semper parturient congue. Eget sagittis convallis accumsan tempus, lectus, aliquam volutpat – orci id posuere torquent laoreet."
+  },
+  {
+    "objectID": "projects/Project 1/project1.html#methods",
+    "href": "projects/Project 1/project1.html#methods",
+    "title": "My Data Science Project",
+    "section": "Methods",
+    "text": "Methods\nDolor in luctus lacus enim at tempus. Malesuada felis nisi dapibus, nibh posuere accumsan maecenas mi nostra facilisi? Feugiat egestas phasellus ante magnis vestibulum donec congue tincidunt? Bibendum torquent mollis conubia convallis urna sociosqu fusce luctus fames nullam est fames natoque lacus pretium pulvinar.\nSit tempor duis nisi primis diam nascetur – nibh nam sodales. Litora vitae auctor dui purus sociis taciti auctor sodales sed, facilisi habitasse mi. Cras neque condimentum sodales mattis euismod morbi. Dapibus natoque convallis at taciti laoreet, posuere condimentum fringilla accumsan himenaeos.\nDolor augue fusce potenti non, sociis facilisis aliquam, euismod nascetur. Donec pharetra eu hendrerit quisque convallis etiam inceptos egestas? Ante scelerisque sapien himenaeos ligula mauris purus maecenas – ut nullam id risus! Sociosqu nulla; velit porta varius curabitur semper viverra.\nIpsum sed lacinia, iaculis potenti risus tellus ac! Eget lobortis accumsan sodales risus mi volutpat orci. Massa sagittis, bibendum porta justo neque! Congue convallis ridiculus nostra sociis nullam ornare eu himenaeos – quis ultricies fusce suscipit nisi mus."
+  },
+  {
+    "objectID": "projects/Project 1/project1.html#results",
+    "href": "projects/Project 1/project1.html#results",
+    "title": "My Data Science Project",
+    "section": "Results",
+    "text": "Results\nDolor augue elementum non feugiat etiam lectus sagittis commodo penatibus venenatis fringilla interdum! Orci consequat habitant mauris vulputate arcu inceptos, vehicula netus litora? Nunc proin suspendisse massa non, leo auctor. Venenatis tristique mus nisl eu auctor justo vulputate duis hac sodales praesent?. For more info see Figure 1\nIpsum pretium varius euismod tortor facilisi aenean mauris egestas lacinia! Habitant tempus senectus porttitor. Nulla nisi hac tincidunt luctus platea cras faucibus mollis purus proin. Neque sem quisque cursus sociosqu mollis sociis euismod, duis congue, quam dis tortor libero maecenas.. For more info see Table 1\nFor the equation used, please see Equation 1"
+  },
+  {
+    "objectID": "projects/Project 1/project1.html#discussion",
+    "href": "projects/Project 1/project1.html#discussion",
+    "title": "My Data Science Project",
+    "section": "Discussion",
+    "text": "Discussion\nLorem vivamus molestie mus iaculis congue cras convallis sodales primis sodales dictumst enim? Sociis interdum sodales lectus odio himenaeos conubia lacus sollicitudin. Magna velit eros cursus dignissim, velit neque porta. Purus dictumst inceptos metus condimentum bibendum, aptent placerat vehicula!\nElit vestibulum, torquent lacinia senectus diam nisi ultricies nostra ligula? Neque diam, elementum blandit phasellus venenatis, metus elementum ornare posuere. Aenean diam duis pellentesque nisl dignissim, suscipit semper. Torquent morbi gravida habitasse cum sociis, lacinia elementum inceptos aptent ac libero, magnis sociosqu sollicitudin curae.\nAmet turpis senectus enim quam – at posuere mattis conubia. Vehicula malesuada justo vestibulum torquent aliquet nibh tristique. Magnis suspendisse eros felis semper at quis. Penatibus molestie ut tincidunt accumsan arcu diam, libero mattis, lobortis vivamus purus eu vestibulum curabitur fringilla ultrices pellentesque, lacinia tempor pharetra interdum.\nAmet donec egestas proin magna a sem luctus gravida nam at orci. Tortor erat – iaculis tempus non quis. Sed venenatis morbi class nullam quis at laoreet malesuada fames! Congue nibh habitant."
+  },
+  {
+    "objectID": "projects/Project 1/project1.html#conclusion",
+    "href": "projects/Project 1/project1.html#conclusion",
+    "title": "My Data Science Project",
+    "section": "Conclusion",
+    "text": "Conclusion\nAmet etiam gravida hendrerit dis rutrum tellus ligula cum. Feugiat auctor facilisi, eleifend iaculis porta eu integer sapien, himenaeos ligula, himenaeos himenaeos ornare. Aliquet et leo lobortis, senectus mus taciti vestibulum mollis suspendisse. Nibh eleifend nascetur commodo curae fringilla et posuere?\nAdipiscing class turpis dis vel felis facilisi, laoreet sem suspendisse habitant vulputate. Pretium nam molestie facilisi habitasse. Posuere vulputate sem montes, hendrerit sed habitant blandit. Bibendum lacinia sociis suscipit rutrum montes nascetur duis phasellus est, fames senectus accumsan semper a iaculis luctus libero non pellentesque ut.\nAdipiscing augue hendrerit, cras nascetur sed taciti, porttitor feugiat varius curabitur quam. Mattis habitant sociis sollicitudin; sem – platea quisque dapibus. Velit semper eleifend integer lectus auctor cursus elementum, fermentum; nec commodo egestas massa. Placerat bibendum duis malesuada leo pretium, natoque tellus.\nAmet gravida dui vivamus posuere bibendum sollicitudin aliquet nullam. Morbi elementum torquent rhoncus sodales parturient volutpat pulvinar enim quam feugiat ad ridiculus? Vehicula consequat lacus dictumst primis dictumst eget inceptos augue! At vel proin tristique: semper sollicitudin vel – tellus: augue morbi taciti malesuada nulla natoque."
+  },
+  {
+    "objectID": "projects/Project 1/project1.html#references",
+    "href": "projects/Project 1/project1.html#references",
+    "title": "My Data Science Project",
+    "section": "References",
+    "text": "References\n\nAden-Buie, G. (2023). Lorem: Generate lorem ipsum text. https://github.com/gadenbuie/lorem\n\n\nHorst, A., Hill, A., & Gorman, K. (2022). Palmerpenguins: Palmer archipelago (antarctica) penguin data. https://allisonhorst.github.io/palmerpenguins/\n\n\nIannone, R., Cheng, J., Schloerke, B., Hughes, E., Lauer, A., & Seo, J. (2024). Gt: Easily create presentation-ready display tables. https://gt.rstudio.com\n\n\nWickham, H. (2023). Tidyverse: Easily install and load the tidyverse. https://tidyverse.tidyverse.org\n\n\nWickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L. D., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T. L., Miller, E., Bache, S. M., Müller, K., Ooms, J., Robinson, D., Seidel, D. P., Spinu, V., … Yutani, H. (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686. https://doi.org/10.21105/joss.01686"
+  },
+  {
+    "objectID": "projects/Project 1/project1.html#appendices",
+    "href": "projects/Project 1/project1.html#appendices",
+    "title": "My Data Science Project",
+    "section": "Appendices",
+    "text": "Appendices\n\n\n\n\nTable 1: Mean and Variance of Flipper Length By Species\n\n\n\n\n\n\n\n\n\nSpecies\nM\nSD\n\n\n\n\nAdelie\n190.10\n6.52\n\n\nChinstrap\n195.82\n7.13\n\n\nGentoo\n217.24\n6.59\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: Flipper Length By Sex\n\n\n\n\n\n\n\n\n\\[\\beta_1 = (\\frac{s_y}{s_1})(\\frac{r_{y_1}-r_{y_2}r_{12}}{1 - r_{12}^{2}}) \\tag{1}\\]"
   },
   {
     "objectID": "Presentation.html#about-me",
@@ -84,66 +140,17 @@
     "text": "Publishing Your Website\n\nPublishingFinal Product\n\n\n\nSeveral options to publish\nPersonally I think Netlify is the best because you get some choice over your web address (and it’s free1)\nBut a full list of options are here\n\n\n\n\n\n\n\nCaution\n\n\n1Netlify will charge you should your site start receiving a lot of traffic. In which case other options might be better depending on how much traffic you expect to generate.\n\n\n\n\n\n\n\n\nYou can find the repo on my GitHub"
   },
   {
-    "objectID": "projects/Project 1/project1.html",
-    "href": "projects/Project 1/project1.html",
-    "title": "My Data Science Project",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Consectetur dictum dignissim velit natoque volutpat donec mus diam mi aenean elementum. Posuere etiam malesuada sapien elementum consequat cursus non quis nostra! Nostra ligula sociosqu; consequat augue pellentesque mollis lobortis inceptos vulputate lacus phasellus sed! Na sed.\nDolor natoque vitae gravida curabitur in iaculis gravida, vulputate vitae consequat. Bibendum venenatis euismod sociosqu placerat potenti convallis. Fusce nisi nam ut, ridiculus, nunc netus tincidunt scelerisque faucibus! Accumsan ultricies hendrerit penatibus convallis mus risus iaculis in erat, mus iaculis natoque malesuada est, gravida conubia ut condimentum pellentesque habitasse pellentesque.\nElit nullam id proin class quis! Mattis lectus phasellus risus aenean class; natoque hac vitae! Egestas enim tempus scelerisque, mollis tempus dapibus – litora elementum curae curae? Felis vitae velit quisque nascetur quam sodales netus curae ante at nam sed leo quam imperdiet nam.\nAmet cum, ut convallis et quis euismod, elementum ligula nulla. Ligula varius curabitur ultrices commodo viverra; congue – rutrum diam id. Dis erat tincidunt scelerisque, suscipit tortor erat pharetra rhoncus felis. Na felis."
+    "text": "My Data Science Project\n\n\n\n\n\n\nQuarto\n\n\nR\n\n\nWorkshop\n\n\n\nA mock data science project\n\n\n\n\n\nJul 18, 2024\n\n\nBrier S. Gallihugh\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/Project 1/project1.html#introduction",
-    "href": "projects/Project 1/project1.html#introduction",
-    "title": "My Data Science Project",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About This Workshop",
     "section": "",
-    "text": "Consectetur dictum dignissim velit natoque volutpat donec mus diam mi aenean elementum. Posuere etiam malesuada sapien elementum consequat cursus non quis nostra! Nostra ligula sociosqu; consequat augue pellentesque mollis lobortis inceptos vulputate lacus phasellus sed! Na sed.\nDolor natoque vitae gravida curabitur in iaculis gravida, vulputate vitae consequat. Bibendum venenatis euismod sociosqu placerat potenti convallis. Fusce nisi nam ut, ridiculus, nunc netus tincidunt scelerisque faucibus! Accumsan ultricies hendrerit penatibus convallis mus risus iaculis in erat, mus iaculis natoque malesuada est, gravida conubia ut condimentum pellentesque habitasse pellentesque.\nElit nullam id proin class quis! Mattis lectus phasellus risus aenean class; natoque hac vitae! Egestas enim tempus scelerisque, mollis tempus dapibus – litora elementum curae curae? Felis vitae velit quisque nascetur quam sodales netus curae ante at nam sed leo quam imperdiet nam.\nAmet cum, ut convallis et quis euismod, elementum ligula nulla. Ligula varius curabitur ultrices commodo viverra; congue – rutrum diam id. Dis erat tincidunt scelerisque, suscipit tortor erat pharetra rhoncus felis. Na felis."
-  },
-  {
-    "objectID": "projects/Project 1/project1.html#methods",
-    "href": "projects/Project 1/project1.html#methods",
-    "title": "My Data Science Project",
-    "section": "Methods",
-    "text": "Methods\nSit justo vulputate cursus cursus sociis et, senectus consequat lacinia eleifend. Arcu eu sed fusce suscipit, accumsan integer magnis dignissim tincidunt duis taciti est? Curabitur pretium sem velit nunc quam at massa varius. Ut parturient gravida penatibus est mi eleifend, dis; quisque laoreet velit.\nIpsum laoreet imperdiet litora, fusce nam inceptos fermentum placerat! Condimentum suscipit phasellus dis congue felis vestibulum conubia: cursus a dui nostra quisque. Orci potenti pulvinar aenean nisl lectus, vivamus sociosqu vitae enim. Turpis magna penatibus vehicula porttitor ornare nisl; ullamcorper rhoncus ultrices blandit mollis libero.\nIpsum cubilia nec sociosqu netus mauris – habitasse magnis, aenean curabitur semper iaculis. Vestibulum maecenas etiam, egestas etiam tellus habitasse suscipit. Bibendum curae sagittis eros vestibulum feugiat rhoncus tellus, lobortis netus vulputate. Taciti euismod vitae neque lectus sociis turpis molestie – praesent fermentum bibendum imperdiet massa.\nConsectetur enim consequat cubilia molestie penatibus consequat, dapibus ut taciti mattis. Ligula imperdiet phasellus lacus magna malesuada iaculis ornare ac, tempus enim ad. Luctus in sapien pharetra sollicitudin, hendrerit penatibus donec at! Himenaeos mattis odio posuere tellus facilisi bibendum euismod?"
-  },
-  {
-    "objectID": "projects/Project 1/project1.html#results",
-    "href": "projects/Project 1/project1.html#results",
-    "title": "My Data Science Project",
-    "section": "Results",
-    "text": "Results\nAmet gravida risus fames; suspendisse habitasse commodo – egestas natoque felis primis. Per elementum curabitur purus proin justo; conubia luctus parturient – vitae dapibus vivamus. Cum proin sem nam interdum nisl leo. A netus sem integer eget, rutrum consequat vestibulum hendrerit.. For more info see Figure 1\nDolor blandit fermentum enim libero congue inceptos blandit; neque non! Lacinia vel viverra venenatis: purus primis parturient. Orci a dui – commodo: tincidunt est lacinia, litora nostra at. Pretium himenaeos bibendum vitae orci tempus, taciti accumsan lobortis dui nisl.. For more info see Table 1\nFor the equation used, please see Equation 1"
-  },
-  {
-    "objectID": "projects/Project 1/project1.html#discussion",
-    "href": "projects/Project 1/project1.html#discussion",
-    "title": "My Data Science Project",
-    "section": "Discussion",
-    "text": "Discussion\nAmet diam volutpat praesent, hendrerit; vulputate quis aptent nec. Rhoncus vehicula; ad suspendisse parturient tempor ornare? Eleifend tempor velit rhoncus a volutpat vehicula nisi ac per lacus. Massa vulputate quisque sociis dignissim curae non natoque vestibulum posuere vehicula eget sed netus.\nAdipiscing consequat et neque: nascetur netus scelerisque, ultrices nisl odio. Parturient accumsan rutrum tristique, auctor imperdiet fringilla. Quisque ad malesuada pulvinar suscipit vitae vel eros, molestie nunc! Magnis suscipit ante vitae cubilia semper feugiat?\nSit vehicula vivamus nibh lacus habitant nulla senectus posuere fames rhoncus pulvinar suspendisse. Turpis vel sociis ornare integer potenti congue iaculis scelerisque consequat est? Penatibus eget primis venenatis at, convallis posuere suspendisse? Purus convallis suspendisse hendrerit non.\nConsectetur nibh facilisis lacinia natoque venenatis mattis, odio velit, senectus vel. Nisl viverra condimentum cras feugiat proin aliquam ad. Metus posuere habitasse ante morbi cum lobortis vulputate venenatis congue pretium molestie malesuada netus? Velit taciti eu eu parturient, tempus a erat molestie pharetra; lobortis semper platea nostra!"
-  },
-  {
-    "objectID": "projects/Project 1/project1.html#conclusion",
-    "href": "projects/Project 1/project1.html#conclusion",
-    "title": "My Data Science Project",
-    "section": "Conclusion",
-    "text": "Conclusion\nDolor sodales turpis velit phasellus morbi sociis senectus consequat luctus pharetra! Praesent ultrices suscipit tellus proin: velit eu dapibus potenti vulputate elementum leo ullamcorper! Congue taciti vitae leo nostra nulla fringilla posuere? Porttitor ac aliquet tristique pulvinar hendrerit semper litora, consequat orci mi.\nElit tincidunt eget id per netus dapibus gravida! Dictum morbi convallis mi fringilla nam porta gravida; cum, semper vel et aliquam gravida neque. Mus non dictum tellus, volutpat nisi tellus, mus tincidunt mi conubia! Primis tortor mi tortor.\nDolor fames nam euismod mauris suspendisse vitae parturient, curabitur id id. Dictum cum etiam, diam, per himenaeos nisi. Magnis mattis mauris consequat per imperdiet nulla faucibus hendrerit. Litora aliquet gravida nec eu habitant consequat himenaeos – risus nibh lectus blandit turpis.\nDolor at litora elementum metus; lobortis consequat neque suspendisse. Per hac aliquet ullamcorper duis vulputate commodo nulla? Sociis potenti imperdiet scelerisque praesent fermentum consequat scelerisque mus! Non tortor, rhoncus facilisis posuere velit sodales litora convallis: congue eros vel."
-  },
-  {
-    "objectID": "projects/Project 1/project1.html#references",
-    "href": "projects/Project 1/project1.html#references",
-    "title": "My Data Science Project",
-    "section": "References",
-    "text": "References\n\nAden-Buie, G. (2023). Lorem: Generate lorem ipsum text. https://github.com/gadenbuie/lorem\n\n\nHorst, A., Hill, A., & Gorman, K. (2022). Palmerpenguins: Palmer archipelago (antarctica) penguin data. https://allisonhorst.github.io/palmerpenguins/\n\n\nIannone, R., Cheng, J., Schloerke, B., Hughes, E., Lauer, A., & Seo, J. (2024). Gt: Easily create presentation-ready display tables. https://gt.rstudio.com\n\n\nWickham, H. (2023). Tidyverse: Easily install and load the tidyverse. https://tidyverse.tidyverse.org\n\n\nWickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L. D., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T. L., Miller, E., Bache, S. M., Müller, K., Ooms, J., Robinson, D., Seidel, D. P., Spinu, V., … Yutani, H. (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686. https://doi.org/10.21105/joss.01686"
-  },
-  {
-    "objectID": "projects/Project 1/project1.html#appendices",
-    "href": "projects/Project 1/project1.html#appendices",
-    "title": "My Data Science Project",
-    "section": "Appendices",
-    "text": "Appendices\n\n\n\n\nTable 1: Mean and Variance of Flipper Length By Species\n\n\n\n\n\n\n\n\n\nSpecies\nM\nSD\n\n\n\n\nAdelie\n190.10\n6.52\n\n\nChinstrap\n195.82\n7.13\n\n\nGentoo\n217.24\n6.59\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: Flipper Length By Sex\n\n\n\n\n\n\n\n\n\\[\\beta_1 = (\\frac{s_y}{s_1})(\\frac{r_{y_1}-r_{y_2}r_{12}}{1 - r_{12}^{2}}) \\tag{1}\\]"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Website Creation: A Quarto Tutorial",
-    "section": "",
-    "text": "Ipsum neque; habitasse ad nunc penatibus senectus aliquet nulla! Lacinia bibendum montes aliquet rhoncus nibh nulla, integer malesuada urna. Eu netus at leo feugiat – dis sagittis netus, dis libero bibendum rhoncus? Mollis duis class porta, mollis arcu. Faucibus platea velit sodales urna vestibulum, aliquam tempus ullamcorper phasellus parturient malesuada diam imperdiet dis metus orci laoreet aliquet eleifend.\nElit fusce etiam, auctor posuere proin pretium. Tincidunt at suscipit velit malesuada ridiculus eleifend nunc tellus vitae luctus tristique. Convallis potenti a quisque facilisi cum sed phasellus per. Egestas duis mollis euismod et varius viverra neque lectus pellentesque sapien! Velit porta habitasse dui nascetur non vitae: cubilia venenatis: ad gravida torquent fermentum – metus aliquet vel.\nAdipiscing id leo mollis, quis urna enim! Montes non erat mauris nibh eleifend imperdiet cras, fermentum porttitor commodo! Tincidunt montes lacinia hac: sociis iaculis tincidunt quam taciti mattis integer. Luctus integer justo tristique per platea sociosqu augue, habitasse – suscipit nulla id montes netus habitant suspendisse! Duis eget montes facilisis est, aliquam sagittis eu."
+    "text": "Ipsum libero nisl justo montes eu habitasse inceptos? Aliquet dui mus – urna consequat lacinia fusce – commodo dictum vulputate odio ligula! Vitae dictum lectus faucibus fusce blandit senectus. Phasellus metus habitasse nulla, nascetur: fringilla auctor cras mattis nascetur ornare curabitur! Vestibulum eros convallis vehicula egestas porta donec porttitor commodo himenaeos auctor ultricies erat cras, fusce varius proin integer nascetur litora ante facilisis suspendisse fames, risus, ante interdum!\nElit arcu vitae dis fermentum phasellus, interdum nulla arcu magna, pellentesque quam potenti! Ut et, tellus pretium erat. Vivamus nunc ultricies cursus fusce iaculis euismod luctus orci porttitor. Porta primis potenti dis himenaeos bibendum magnis turpis quam laoreet habitasse. Netus eu venenatis: tellus, non scelerisque fames suscipit nec molestie fermentum justo fames risus!\nElit condimentum sed urna ultrices aliquam enim vel, tempus vitae fusce donec. Mus mollis parturient eget primis molestie congue risus quis eget. Faucibus nascetur in risus molestie. Aliquam dignissim felis, iaculis, hac pharetra ante aliquet aenean nam venenatis? Aliquet ac fames neque quisque habitant dictumst pharetra, tellus lobortis vel facilisis platea."
   }
 ]
